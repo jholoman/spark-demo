@@ -1,0 +1,12 @@
+{
+  "namespace": "com.cloudera.se.spark.demo.avro",
+  "type": "record",
+  "name": "UpdatedEvent",
+  "fields": [
+    { "name": "header1", "type": [ "string", "null" ], "avro.java.string": "String" },
+    { "name": "header2", "type": [ "string", "null" ], "avro.java.string": "String" },
+    { "name": "header3", "type": [ "string", "null" ], "avro.java.string": "String" },
+    { "name": "header4", "type": [ "string", "null" ], "avro.java.string": "String" },
+    { "name": "body", "type": [ "string", "null" ], "avro.java.string": "String" }
+  ]
+}
